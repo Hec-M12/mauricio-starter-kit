@@ -1,0 +1,63 @@
+{
+  "_doc": "Mauricio Claude Code settings — minimal starter. Copy this to ~/.claude/settings.json on Mauricio's Mac. Ajustá conforme aprenda y necesite más permisos. Las claves con prefijo _doc son comentarios y Claude Code las ignora.",
+  "permissions": {
+    "_doc": "Permisos básicos para que no le salgan permission prompts cada 2 segundos. Solo bash commands comunes en dev workflow. Agregar más conforme aparezcan.",
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(pwd)",
+      "Bash(which:*)",
+      "Bash(mkdir:*)",
+      "Bash(touch:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(echo:*)",
+      "Bash(chmod:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(pnpm:*)",
+      "Bash(yarn:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git remote:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:nextjs.org)",
+      "WebFetch(domain:supabase.com)",
+      "WebFetch(domain:developer.mozilla.org)",
+      "WebFetch(domain:stackoverflow.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:javascript.info)",
+      "WebFetch(domain:git-scm.com)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)",
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~)",
+      "Bash(rm -rf ~/)",
+      "Bash(rm -rf $HOME)",
+      "Bash(sudo:*)",
+      "Bash(curl * | bash)",
+      "Bash(curl * | sh)",
+      "Bash(wget * | bash)",
+      "Bash(wget * | sh)"
+    ]
+  },
+  "env": {
+    "_doc": "Vacío al inicio. Cuando Mauricio empiece a usar APIs (Supabase keys, Pagadito keys), agregás aquí o mejor en .env del proyecto."
+  }
+}
