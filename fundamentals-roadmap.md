@@ -146,6 +146,21 @@ Eso es Plan B. No es parte de este roadmap.
 
 ---
 
+## Práctica continua: memoria + cierre de sesión
+
+Aplica desde el **Bloque 2** en adelante (cuando ya tengas un repo con git).
+
+Al final de cada sesión productiva (>30 min), aplicá el ritual de cierre. Detalles en `close-session-pattern.md` del starter kit. Resumen:
+
+1. Decile a Claude: `Cerremos la sesión. Seguí el close-session-pattern de mi kit.`
+2. Claude actualiza CLAUDE.md del proyecto, append a CHANGELOG.md, guarda memoria durable, commit + push, confirma cada paso
+
+**Por qué importa para vos específicamente**: cada bloque de fundamentals es una sesión separada. Si cerrás bien, mañana abrís Claude y arrancás el próximo bloque con contexto completo. Si no cerrás, mañana le re-explicás todo.
+
+**A partir del Bloque 5** (Next.js + Supabase): el ritual es OBLIGATORIO al final de cada sesión. Vas a tener un repo real con código real, las decisiones se acumulan rápido.
+
+---
+
 ## Reglas del roadmap
 
 - **NO saltar bloques**. Si te aburrís en el Bloque 1, igual hacelo. Es la base.

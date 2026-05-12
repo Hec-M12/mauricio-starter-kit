@@ -17,6 +17,7 @@ Bundle para configurar Claude Code en la Mac de Mauricio (hermano de Hector, 12,
 | `skills-essential.md` | Qué plugins instalar + qué skills incluye el bundle + qué NO instalar |
 | `fundamentals-roadmap.md` | 6 bloques de aprendizaje. Bloques 1-4 antes de tocar marketplace |
 | `first-prompts.md` | Prompts del Día 1 para verificar install + arrancar Bloque 1 |
+| `close-session-pattern.md` | Ritual de 5 pasos para cerrar cada sesión bien (update CLAUDE.md, CHANGELOG, memoria, commit) |
 | `skills/` | Carpetas de skills (Next.js, Supabase, Vercel AI SDK) que se copian a `~/.claude/skills/` de Mauricio |
 
 ## Filosofía

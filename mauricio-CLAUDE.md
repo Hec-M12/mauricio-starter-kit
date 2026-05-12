@@ -69,3 +69,27 @@ Lo que sé hasta ahora:
 - Mi cara OK, mi primer nombre OK
 - Sin apellido, sin escuela, sin ubicación exacta (solo "Honduras")
 - Mis papás ya dieron green light pero estas reglas son fijas
+
+## Memoria + cierre de sesión
+
+Claude Code tiene auto-memoria built-in. Cada proyecto/carpeta tiene su pool en `~/.claude/projects/<carpeta-encoded>/memory/`.
+
+Cuando aprenda algo durable durante una sesión (preferencia mía, decisión de proyecto, lección aprendida), **guardalo proactivamente** en mi memory pool. No me preguntes — si es algo que vale para futuras sesiones, escribilo.
+
+Al final de cada sesión productiva, vas a oírme decir:
+
+```
+Cerremos la sesión. Seguí el close-session-pattern de mi kit.
+```
+
+Ahí ejecutás los 5 pasos del archivo `close-session-pattern.md` del starter kit:
+
+1. Update CLAUDE.md del proyecto (no este global, el del repo)
+2. Append entry a CHANGELOG.md del proyecto
+3. Guardar memoria durable si aplica
+4. Git commit + push
+5. Confirmar que los 4 pasos pasaron
+
+Cada paso lo confirmás explícitamente. No "listo" genérico — uno por uno.
+
+Detalles completos del ritual en `~/Downloads/mauricio-starter-kit/close-session-pattern.md` si necesitás referenciarlo.
