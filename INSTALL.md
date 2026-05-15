@@ -164,11 +164,15 @@ Debe imprimir todos los archivos del kit (README.md, INSTALL.md, settings.exampl
 Desde dentro de `mauricio-starter-kit/`:
 
 ```bash
-# Settings (permisos básicos)
+# Settings (permisos básicos + status bar)
 cp settings.example.json ~/.claude/settings.json
 
 # CLAUDE.md global (Mauricio's identity para Claude)
 cp mauricio-CLAUDE.md ~/.claude/CLAUDE.md
+
+# Status bar inferior (modelo, task activa, contexto usado, rate limits)
+mkdir -p ~/.claude/hooks
+cp hooks/gsd-statusline.js ~/.claude/hooks/
 
 # Skills Next.js + Supabase (para Fase 2, cuando empiece a buildear)
 mkdir -p ~/.claude/skills

@@ -59,5 +59,10 @@
   },
   "env": {
     "_doc": "Vacío al inicio. Cuando Mauricio empiece a usar APIs (Supabase keys, Pagadito keys), agregás aquí o mejor en .env del proyecto."
+  },
+  "statusLine": {
+    "_doc": "Status bar inferior — muestra modelo, task activa, directorio, uso de contexto y rate limits. Requiere copiar hooks/gsd-statusline.js a ~/.claude/hooks/ (ver Paso 7 del INSTALL.md).",
+    "type": "command",
+    "command": "node \"$HOME/.claude/hooks/gsd-statusline.js\""
   }
 }
